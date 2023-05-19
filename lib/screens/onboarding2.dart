@@ -14,29 +14,28 @@ class Onboarding2 extends StatelessWidget {
               child: Container(
                 height: 350,
                 width: 500,
-                    decoration: const BoxDecoration(
-                    image: DecorationImage(image: AssetImage("assets/images/rafiki.png"),)
-                  ),
-                    
-                
-                  ),
+                decoration: const BoxDecoration(
+                    image: DecorationImage(
+                  image: AssetImage("assets/images/rafiki.png"),
+                )),
+              ),
             ),
-                const Padding(
-                  padding: EdgeInsets.only(top: 10),
-                  child: Text(
-                              "Instant delivery",
-                              textAlign: TextAlign.center,
-                              textScaleFactor: 2.0,
-                              style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w800,
-                              ),
-                            ),
-                ),
             const Padding(
               padding: EdgeInsets.only(top: 10),
               child: Text(
-                "No extra charges, No Hidden charges, \n Start Now",
+                "Instant delivery",
+                textAlign: TextAlign.center,
+                textScaleFactor: 2.0,
+                style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+            ),
+            const Padding(
+              padding: EdgeInsets.only(top: 10),
+              child: Text(
+                "No extra charges, No Olosho charges, \n Start Now",
                 textAlign: TextAlign.center,
                 // textScaleFactor: 2.0,
                 style: TextStyle(
@@ -49,6 +48,6 @@ class Onboarding2 extends StatelessWidget {
           ],
         ),
       ),
-      );
+    );
   }
 }
