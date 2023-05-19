@@ -13,8 +13,8 @@ class HomePage extends StatelessWidget {
        children: [
         Center(
           child: Container(
-            height: 201,
-            width: 201,
+            height: 200,
+            width: 200,
             decoration: const BoxDecoration(
             image: DecorationImage(image: AssetImage("assets/images/logo.png"),)
           ),
